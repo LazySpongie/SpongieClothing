@@ -1,0 +1,17 @@
+ ContextMenu_DE = {
+	ContextMenu_OpenJacket = "Öffnen",
+	ContextMenu_CloseJacket = "Schließen",
+	ContextMenu_OpenHoodUp = "Öffnen, Kapuze oben",
+	ContextMenu_OpenHoodDown = "Öffnen, Kapuze unten",
+	ContextMenu_CloseHoodUp = "Schließen, Kapuze oben",
+	ContextMenu_CloseHoodDown = "Schließen, Kapuze unten",
+	ContextMenu_TuckIn = "Reinstecken",
+	ContextMenu_TuckOut = "Herausziehen",
+	ContextMenu_RollUp = "Hochkrempeln",
+	ContextMenu_RollDown = "Herunterkrempeln",
+	ContextMenu_OpenRollUp = "Öffnen, Hochkrempeln",
+	ContextMenu_OpenRollDown = "Öffnen, Herunterkrempeln",
+	ContextMenu_CloseRollUp = "Schließen, Hochkrempeln",
+	ContextMenu_CloseRollDown = "Schließen, Herunterkrempeln",
+	ContextMenu_TieOnWaist = "Um die Taille binden"
+}

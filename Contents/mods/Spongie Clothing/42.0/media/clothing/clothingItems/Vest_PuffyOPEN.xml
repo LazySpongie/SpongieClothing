@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+    <m_MaleModel>Skinned\Clothes\Spongie\Bob_BulletVestOPEN</m_MaleModel>
+    <m_FemaleModel>Skinned\Clothes\Spongie\Kate_BulletVestOPEN</m_FemaleModel>
+	<m_GUID>spongiec-OPEN-4137-a498-3c09e77a5cab</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>true</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_UnderlayMasksFolder>media\textures\clothes\Spongie\BulletVest\Masks_BulletVestOPEN</m_UnderlayMasksFolder>
+	<textureChoices>clothes\Spongie\Shirt\Vest_Puffy</textureChoices>
+</clothingItem>

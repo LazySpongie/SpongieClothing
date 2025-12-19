@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>skinned\clothes\bob_jacket</m_MaleModel>
+	<m_FemaleModel>skinned\clothes\kate_jacket</m_FemaleModel>
+	<m_GUID>spongiec-1ead-ROLL-bb38-c6e77d78ea87</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_Masks>13</m_Masks>
+	<m_Masks>14</m_Masks>
+	<m_UnderlayMasksFolder>media/textures/Clothes/Jacket/Masks</m_UnderlayMasksFolder>
+	<textureChoices>clothes\Spongie\Jacket\Rolled\shirt_denim</textureChoices>
+	<textureChoices>clothes\Spongie\Jacket\Rolled\shirt_denimblack</textureChoices>
+	<textureChoices>clothes\Spongie\Jacket\Rolled\shirt_denimlight</textureChoices>
+</clothingItem>

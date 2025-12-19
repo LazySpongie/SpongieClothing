@@ -1,0 +1,25 @@
+require 'NPCs/BodyLocations'
+
+local BodyLocationsTweaker = require("SpongieCopy_BodyLocationsTweaker")
+
+BodyLocationsTweaker:unhideModel("Jacket","Sweater")
+BodyLocationsTweaker:unhideModel("Jacket_Bulky","Sweater")
+BodyLocationsTweaker:unhideModel("JacketHat_Bulky","Sweater")
+BodyLocationsTweaker:unhideModel("JacketHat_Bulky","SweaterHat")
+BodyLocationsTweaker:unhideModel("JacketHat","SweaterHat")
+BodyLocationsTweaker:unhideModel("JacketHat","Sweater")
+BodyLocationsTweaker:unhideModel("Jacket_Down","Sweater")
+BodyLocationsTweaker:unhideModel("Jacket_Down","SweaterHat")
+
+BodyLocationsTweaker:unhideModel("Jacket", "LeftWrist")
+BodyLocationsTweaker:unhideModel("Jacket", "RightWrist")
+BodyLocationsTweaker:unhideModel("JacketSuit", "LeftWrist")
+BodyLocationsTweaker:unhideModel("JacketSuit", "RightWrist")
+BodyLocationsTweaker:unhideModel("Jacket_Bulky", "LeftWrist")
+BodyLocationsTweaker:unhideModel("Jacket_Bulky", "RightWrist")
+BodyLocationsTweaker:unhideModel("JacketHat_Bulky", "LeftWrist")
+BodyLocationsTweaker:unhideModel("JacketHat_Bulky", "RightWrist")
+BodyLocationsTweaker:unhideModel("Sweater", "LeftWrist")
+BodyLocationsTweaker:unhideModel("Sweater", "RightWrist")
+BodyLocationsTweaker:unhideModel("SweaterHat", "LeftWrist")
+BodyLocationsTweaker:unhideModel("SweaterHat", "RightWrist")

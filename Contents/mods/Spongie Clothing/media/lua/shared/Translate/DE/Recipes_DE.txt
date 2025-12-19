@@ -1,0 +1,3 @@
+Recipes_DE = {
+    Recipe_Make_Flight_Jacket_Vest = "Ärmel entfernen",
+}

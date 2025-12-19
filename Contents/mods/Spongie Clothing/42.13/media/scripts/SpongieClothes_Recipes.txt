@@ -1,0 +1,31 @@
+module Base
+{
+	craftRecipe SpongieClothingFlightVest
+	{
+		timedAction = SewingCloth,
+		Time = 60,
+        Tags = InHandCraft;CanBeDoneInDark,
+        category = Tailoring,
+		OnCreate = Recipe.OnCreate.InheritTextureVariation,
+		inputs
+		{
+            item 1 tags[base:scissors] mode:keep flags[SharpnessCheck;IsNotDull],
+			item 1 [Spongie.Jacket_Flight;Spongie.Jacket_FlightROLL;Spongie.Jacket_FlightOPEN;Spongie.Jacket_FlightOPENROLL] flags[IsNotWorn;InheritCondition],
+			// item 1 [Spongie.Jacket_Flight;Spongie.Jacket_FlightROLL;Spongie.Jacket_FlightOPEN;Spongie.Jacket_FlightOPENROLL] flags[IsNotWorn;InheritCondition] mappers[jacketType],
+		}
+		outputs
+		{
+			// item 1 mapper:jacketType,
+			item 2 Base.DenimStrips,
+			item 1 Spongie.Jacket_FlightVest,
+		}
+		// itemMapper jacketType
+		// {
+		// 	Spongie.Jacket_Flight = Spongie.Jacket_FlightVest,
+		// 	Spongie.Jacket_FlightROLL = Spongie.Jacket_FlightVest,
+		// 	Spongie.Jacket_FlightOPEN = Spongie.Jacket_FlightVest,
+		// 	Spongie.Jacket_FlightOPENROLL = Spongie.Jacket_FlightVest,
+        //     default = Spongie.Jacket_FlightVest,
+		// }
+	}
+}

@@ -1,0 +1,17 @@
+
+[ ALERT_CONFIG ]
+link1 = Spongie's Kofi = https://steamcommunity.com/linkfilter/?u=https://ko-fi.com/lazyspongie,
+link2 = Workshop = https://steamcommunity.com/id/LazySpongie/myworkshopfiles/?appid=108600,
+[ ------ ]
+
+[ UPDATE ]
+Features:
+- Select different face textures
+- Add details to your character
+- Works on all skintones
+- Visible muscles depending on strength level. Can be changed in sandbox settings
+- Replaces chest hair with body hair for both body types. Now separate from the body texture
+- Replaces stubble. Now has a different texture for darker skintones
+- Stubble and body hair grow in-game and can be shaved. Can be changed in sandbox settings
+- Mod Support
+[ ------ ]
