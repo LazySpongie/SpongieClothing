@@ -1,6 +1,6 @@
-require 'NPCs/BodyLocations'
 
-local BodyLocationsTweaker = require("SpongieCopy_BodyLocationsTweaker")
+local BodyLocationsTweaker = require("SpongieClothing/SpongieCopy_BodyLocationsTweaker")
+if not BodyLocationsTweaker then return end
 
 BodyLocationsTweaker:unhideModel(ItemBodyLocation.JACKET,ItemBodyLocation.SWEATER)
 BodyLocationsTweaker:unhideModel(ItemBodyLocation.JACKET_BULKY,ItemBodyLocation.SWEATER)
