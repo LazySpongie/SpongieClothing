@@ -6,7 +6,6 @@ module Spongie {
 	{
 	    DisplayCategory = Accessory,
 		ItemType = base:clothing,
-		DisplayName = Arm Warmers,
 		ClothingItem = Gloves_StripedLong,
 		BodyLocation = base:hands,
 		BloodLocation = Hands;LowerArms,
@@ -22,7 +21,6 @@ module Spongie {
 	{
 	    DisplayCategory = Accessory,
 		ItemType = base:clothing,
-		DisplayName = Fingerless Military Gloves,
 		ClothingItem = Gloves_MilitaryFingerless,
 		BodyLocation = base:hands,
 		BloodLocation = Hands,

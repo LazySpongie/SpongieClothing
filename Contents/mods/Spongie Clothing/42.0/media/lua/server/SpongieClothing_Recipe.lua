@@ -43,11 +43,17 @@ local function TransferVisual(item, newItem)
 end
 
 
-function Recipe.OnCreate.UpdateClothingVisual(items, result, player)
-  for i=0, items:size()-1 do
-	-- find the clothing item in the list of item inputs
-	if items:get(i):IsClothing() then
-		TransferVisual(items:get(i), result);
+---@param craftRecipeData CraftRecipeData
+---@param player IsoPlayer
+function Recipe.OnCreate.InheritClothing(craftRecipeData, character)
+    local oldItem = craftRecipeData:getAllInputItemsWithFlag("CopyClothing"):get(0)
+	if not oldItem:IsClothing() return end
+	
+	local outputs = craftRecipeData:getAllCreatedItems()
+	for i = 0, outputs.size() - 1 do
+		local item = outputs.get(i)
+		if item:IsClothing() then
+			TransferVisual(oldItem, item);
+		end
 	end
-  end
 end

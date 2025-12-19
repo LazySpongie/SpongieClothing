@@ -52,7 +52,7 @@ module Spongie {
         Insulation = 0.4,
         WindResistance = 0.2,
         FabricType = Cotton,
-		Tags = base:ripclothingcotton,
+		Tags = base:ripclothingcotton;base:canbedyed,
 		
         WorldStaticModel = TShirt_Ground,
     }
@@ -135,7 +135,7 @@ module Spongie {
         Insulation = 0.35,
         WindResistance = 0.25,
         FabricType = Cotton,
-		Tags = base:ripclothingcotton,
+		Tags = base:ripclothingcotton;base:canbedyed,
         WorldStaticModel = Shirt_Ground,
 		
     }
@@ -150,7 +150,7 @@ module Spongie {
         Insulation = 0.35,
         WindResistance = 0.25,
         FabricType = Cotton,
-		Tags = base:ripclothingcotton,
+		Tags = base:ripclothingcotton;base:canbedyed,
         WorldStaticModel = Shirt_Ground,
 		
     }
@@ -165,7 +165,7 @@ module Spongie {
         Insulation = 0.35,
         WindResistance = 0.25,
         FabricType = Cotton,
-		Tags = base:ripclothingcotton,
+		Tags = base:ripclothingcotton;base:canbedyed,
         WorldStaticModel = Shirt_Ground,
 		
     }
@@ -180,7 +180,7 @@ module Spongie {
         Insulation = 0.35,
         WindResistance = 0.25,
         FabricType = Cotton,
-		Tags = base:ripclothingcotton,
+		Tags = base:ripclothingcotton;base:canbedyed,
         WorldStaticModel = Shirt_Ground,
 		
     }

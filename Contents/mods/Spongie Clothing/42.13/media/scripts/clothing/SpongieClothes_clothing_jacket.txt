@@ -480,7 +480,7 @@ module Spongie {
         Insulation = 0.25,
         WindResistance = 0.3,
         FabricType = Cotton,
-		Tags = base:ripclothingcotton,
+		Tags = base:ripclothingcotton;base:canbedyed,
         WaterResistance = 0.25,
         Weight = 2,
         WorldStaticModel = JacketCoat_Ground,
@@ -501,7 +501,7 @@ module Spongie {
         Insulation = 0.45,
         WindResistance = 0.5,
         FabricType = Cotton,
-		Tags = base:ripclothingcotton,
+		Tags = base:ripclothingcotton;base:canbedyed,
         WaterResistance = 0.45,
         Weight = 2,
         WorldStaticModel = JacketCoat_Ground,
@@ -522,7 +522,7 @@ module Spongie {
         Insulation = 0.25,
         WindResistance = 0.3,
         FabricType = Cotton,
-		Tags = base:ripclothingcotton,
+		Tags = base:ripclothingcotton;base:canbedyed,
         WaterResistance = 0.25,
         Weight = 2,
         WorldStaticModel = JacketCoat_Ground,
@@ -674,7 +674,7 @@ module Spongie {
         WindResistance = 0.4,
         WaterResistance = 0.2,
         FabricType = Cotton,
-		Tags = base:ripclothingcotton,
+		Tags = base:ripclothingcotton;base:canbedyed,
         Weight = 2,
         WorldStaticModel = JacketCoat_Ground,
     }
@@ -694,7 +694,7 @@ module Spongie {
         WindResistance = 0.3,
         WaterResistance = 0.1,
         FabricType = Cotton,
-		Tags = base:ripclothingcotton,
+		Tags = base:ripclothingcotton;base:canbedyed,
         Weight = 2,
         WorldStaticModel = JacketCoat_Ground,
     }
@@ -714,7 +714,7 @@ module Spongie {
         WindResistance = 0.4,
         WaterResistance = 0.2,
         FabricType = Cotton,
-		Tags = base:ripclothingcotton,
+		Tags = base:ripclothingcotton;base:canbedyed,
         Weight = 2,
         WorldStaticModel = JacketCoat_Ground,
     }
@@ -734,7 +734,7 @@ module Spongie {
         WindResistance = 0.3,
         WaterResistance = 0.1,
         FabricType = Cotton,
-		Tags = base:ripclothingcotton,
+		Tags = base:ripclothingcotton;base:canbedyed,
         Weight = 2,
         WorldStaticModel = JacketCoat_Ground,
     }
@@ -748,7 +748,7 @@ module Spongie {
 		Icon = JacketSuitWhite,
         BloodLocation = Jacket,
         FabricType = Cotton,
-		Tags = base:ripclothingcotton,
+		Tags = base:ripclothingcotton;base:canbedyed,
 		
         RunSpeedModifier = 0.95,
         CombatSpeedModifier = 0.95,
@@ -772,7 +772,7 @@ module Spongie {
 		Icon = JacketSuitWhite,
         BloodLocation = Shirt;Neck,
         FabricType = Cotton,
-		Tags = base:ripclothingcotton,
+		Tags = base:ripclothingcotton;base:canbedyed,
 		
         RunSpeedModifier = 0.95,
         CombatSpeedModifier = 0.95,
@@ -795,7 +795,7 @@ module Spongie {
 		Icon = JacketSuitWhite,
         BloodLocation = Shirt;Neck,
         FabricType = Cotton,
-		Tags = base:ripclothingcotton,
+		Tags = base:ripclothingcotton;base:canbedyed,
 		
         RunSpeedModifier = 0.95,
         CombatSpeedModifier = 0.95,
@@ -819,7 +819,7 @@ module Spongie {
 		Icon = JacketSuitWhite,
         BloodLocation = Shirt;Neck,
         FabricType = Cotton,
-		Tags = base:ripclothingcotton,
+		Tags = base:ripclothingcotton;base:canbedyed,
 		
         RunSpeedModifier = 0.95,
         CombatSpeedModifier = 0.95,
@@ -843,7 +843,7 @@ module Spongie {
 		Icon = JacketSuitWhite,
         BloodLocation = Shirt;Neck,
         FabricType = Cotton,
-		Tags = base:ripclothingcotton,
+		Tags = base:ripclothingcotton;base:canbedyed,
 		
         RunSpeedModifier = 0.95,
         CombatSpeedModifier = 0.95,
@@ -867,7 +867,7 @@ module Spongie {
 		Icon = JacketSuitWhite,
         BloodLocation = Shirt;Neck,
         FabricType = Cotton,
-		Tags = base:ripclothingcotton,
+		Tags = base:ripclothingcotton;base:canbedyed,
 		
         RunSpeedModifier = 0.95,
         CombatSpeedModifier = 0.95,
@@ -890,7 +890,7 @@ module Spongie {
 		Icon = JacketSuitWhite,
         BloodLocation = Shirt;Neck,
         FabricType = Cotton,
-		Tags = base:ripclothingcotton,
+		Tags = base:ripclothingcotton;base:canbedyed,
 		
         RunSpeedModifier = 0.95,
         CombatSpeedModifier = 0.95,
@@ -914,7 +914,7 @@ module Spongie {
 		Icon = JacketSuitWhite,
         BloodLocation = Shirt;Neck,
         FabricType = Cotton,
-		Tags = base:ripclothingcotton,
+		Tags = base:ripclothingcotton;base:canbedyed,
 		
         RunSpeedModifier = 0.95,
         CombatSpeedModifier = 0.95,
