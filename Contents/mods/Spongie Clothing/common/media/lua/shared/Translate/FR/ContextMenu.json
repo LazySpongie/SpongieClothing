@@ -1,0 +1,17 @@
+{
+    "ContextMenu_OpenJacket": "Ouvrir la veste",
+    "ContextMenu_CloseJacket": "Fermer la veste",
+    "ContextMenu_OpenHoodUp": "Ouvrir, Capuche relev�e",
+    "ContextMenu_OpenHoodDown": "Ouvrir, Capuche baiss�e",
+    "ContextMenu_CloseHoodUp": "Fermer, Capuche relev�e",
+    "ContextMenu_CloseHoodDown": "Fermer, Capuche baiss�e",
+    "ContextMenu_TuckIn": "Rentrer",
+    "ContextMenu_TuckOut": "Sortir",
+    "ContextMenu_RollUp": "Retrousser",
+    "ContextMenu_RollDown": "Redescendre",
+    "ContextMenu_OpenRollUp": "Ouvrir, Retrouss�",
+    "ContextMenu_OpenRollDown": "Ouvrir, Descendu",
+    "ContextMenu_CloseRollUp": "Fermer, Retrouss�",
+    "ContextMenu_CloseRollDown": "Fermer, Descendu",
+    "ContextMenu_TieOnWaist": "Serrer autour de la taille"
+}

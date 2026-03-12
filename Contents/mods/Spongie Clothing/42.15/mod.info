@@ -1,0 +1,8 @@
+name=Spongie's Clothing
+id=SpnCloth
+author=Spongie
+icon=icon.png
+description=cool clothes
+poster=poster.png
+modversion=21
+require=SpnOpenClothBase

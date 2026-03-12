@@ -5,6 +5,7 @@
         "encoding": "utf-8",
         "ignoreDir": [
             "Contents/mods/Spongie Clothing/42.0",
+            "Contents/mods/Spongie Clothing/42.13",
             "Contents/mods/Spongie Clothing/media"
         ],
         "ignoreGlobs": [],
@@ -15,7 +16,7 @@
         "preloadFileSize": 0,
         "reindexDuration": 5000,
         "workspaceRoots": [
-            "Contents/mods/Spongie Clothing/42.13/lua"
+            "Contents/mods/Spongie Clothing/42.15/lua"
         ]
     },
     "runtime": {
@@ -24,9 +25,9 @@
         "nonstandardSymbol": [],
         "requireLikeFunction": [],
         "requirePattern": [
-            "Contents/mods/Spongie Clothing/42.13/media/lua/shared/?.lua",
-            "Contents/mods/Spongie Clothing/42.13/media/lua/client/?.lua",
-            "Contents/mods/Spongie Clothing/42.13/media/lua/server/?.lua"
+            "Contents/mods/Spongie Clothing/42.15/media/lua/shared/?.lua",
+            "Contents/mods/Spongie Clothing/42.15/media/lua/client/?.lua",
+            "Contents/mods/Spongie Clothing/42.15/media/lua/server/?.lua"
         ],
         "special": {},
         "version": "Lua5.1"

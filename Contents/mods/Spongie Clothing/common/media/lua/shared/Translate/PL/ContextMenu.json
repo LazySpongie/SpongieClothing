@@ -1,0 +1,17 @@
+{
+    "ContextMenu_OpenJacket": "Rozepnij",
+    "ContextMenu_CloseJacket": "Zapnij",
+    "ContextMenu_OpenHoodUp": "Rozepnij, Za�� kaptur",
+    "ContextMenu_OpenHoodDown": "Rozepnij, Zdejmij kaptur",
+    "ContextMenu_CloseHoodUp": "Zapnij, Za�� kaptur",
+    "ContextMenu_CloseHoodDown": "Zapnij, Zdejmij kaptur",
+    "ContextMenu_TuckIn": "Podwi� nogawki",
+    "ContextMenu_TuckOut": "Opu�� nogawki",
+    "ContextMenu_RollUp": "Podwi� r�kawy",
+    "ContextMenu_RollDown": "Opu�� r�kawy",
+    "ContextMenu_OpenRollUp": "Rozepnij, Podwi� r�kawy",
+    "ContextMenu_OpenRollDown": "Rozepnij, Opu�� r�kawy",
+    "ContextMenu_CloseRollUp": "Zapnij, Podwi� r�kawy",
+    "ContextMenu_CloseRollDown": "Zapnij, Opu�� r�kawy",
+    "ContextMenu_TieOnWaist": "Zawi�� w pasie"
+}
