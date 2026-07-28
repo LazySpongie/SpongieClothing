@@ -187,7 +187,7 @@ clothes["ArmySurplusOutfit"] = {
 }
 
 clothes["CrateClothesRandom"] = {
-"Spongie.Jacket_Denim", 5,
+"Spongie.Jacket_Denim", 10,
 "Spongie.Jacket_Ribbed", 6,
 "Spongie.Shirt_Quilted", 6,
 "Spongie.Vest_Puffy", 4,
@@ -237,7 +237,6 @@ clothes["ClothingStorageAllShirts"] = {
 "Spongie.Jumper_TurtleVest", 1,
 
 "Spongie.Jumper_Military", 2,
-"Spongie.Jumper_Military", 2,
 
 "Spongie.Shirt_Quilted", 6,
 "Spongie.Shirt_Quilted", 6,
@@ -247,7 +246,6 @@ clothes["ClothingStoresJumpers"] = {
 "Spongie.Jumper_TurtleVest", 3,
 "Spongie.Jumper_TurtleVest", 3,
 
-"Spongie.Jumper_Military", 7,
 "Spongie.Jumper_Military", 7,
 }
 
@@ -264,7 +262,6 @@ clothes["PoliceLockers"] = {
 }
 clothes["PoliceStorageOutfit"] = {
 "Spongie.Jacket_PoliceArmor", 1,
-"Spongie.Jacket_PoliceArmor", 1,
 "Spongie.Jacket_PoliceArmorLong", 1,
 }
 clothes["PrisonGuardLockers"] = {
@@ -274,15 +271,12 @@ clothes["PrisonGuardLockers"] = {
 
 clothes["ClothingStoresGloves"] = {
 "Spongie.Gloves_StripedLong", 3,
-"Spongie.Gloves_StripedLong", 3,
 "Spongie.Gloves_MilitaryFingerless", 0.1,
 }
 
 clothes["LockerClassy"] = {
 "Spongie.Jacket_Ribbed", 1,
 "Spongie.Trousers_Tweed", 1,
-"Spongie.Trousers_Tweed", 1,
-"Spongie.Jacket_Tweed", 1,
 "Spongie.Jacket_Tweed", 1,
 }
 
@@ -293,29 +287,22 @@ clothes["ClothingStorageLegwear"] = {
 clothes["ClothingStoresPantsFormal"] = {
 "Spongie.Trousers_Tweed", 8,
 "Spongie.Trousers_Tweed", 8,
-"Spongie.Trousers_Tweed", 8,
 }
 
-clothes["CrateTailoring"] = {
-"Spongie.Trousers_Tweed", 8,
-"Spongie.Trousers_Tweed", 8,
-"Spongie.Jacket_Tweed", 8,
-"Spongie.Jacket_Tweed", 8,
-}
+-- clothes["CrateTailoring"] = {
+-- "Spongie.Trousers_Tweed", 8,
+-- "Spongie.Jacket_Tweed", 8,
+-- }
 
 clothes["ClothingStoresJacketsFormal"] = {
 "Spongie.Jacket_Tweed", 10,
 "Spongie.Jacket_Tweed", 10,
-"Spongie.Jacket_Tweed", 10,
-"Spongie.Jacket_Tweed", 10,
 }
 
 
--- caching for performance reasons
 local ProceduralDistributions_list = ProceduralDistributions.list
 local table_insert = table.insert
 
---add the items
 for table_name, items in pairs (clothes) do
 	for i, v in ipairs(items) do
 		table_insert(ProceduralDistributions_list[table_name].items, v)
