@@ -952,7 +952,7 @@ module Spongie {
         DisplayCategory = Clothing,
         ItemType = base:clothing,
         ClothingItem = Jacket_TweedOPEN,
-        BodyLocation = base:JACKET_OPEN,
+        BodyLocation = SpnOpenCloth:JACKET_OPEN,
         BloodLocation = Jacket,
         IconsForTexture = JacketSuitBlack;JacketSuitBlack;Jacket_Tweed3;Jacket_Tweed3;Jacket_Tweed5,
         RunSpeedModifier = 0.95,
